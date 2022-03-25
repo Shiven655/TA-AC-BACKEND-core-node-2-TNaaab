@@ -7,11 +7,11 @@
     <title>Form</title>
   </head>
   <body>
-    <form>
-      <input type="text" name="name" class="form-control" />
-      <input type="text" name="email" class="form-control" />
-      <input type="text" name="age" class="form-control" />
-      <input type="submit" />
+    <form action="/form" method="POST">
+      <input type="text" name="name" placeholder="name" />
+      <input type="text" name="email" placeholder="email" />
+      <input type="text" name="age" placeholder="Age" />
+      <input type="submit" value="add user" />
     </form>
     <script src="server.js"></script>
   </body>
